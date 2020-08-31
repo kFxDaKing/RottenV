@@ -12,5 +12,3 @@ jobs:
         uses: Bluethefurry/auto-close-issues@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-close-message: "@${issue.user.login}: hello! :wave:\n\nThis issue is being automatically closed because it does not follow the issue template. Please make sure to follow the Template." # optional property
-          closed-issues-label: "🙁 Not following issue template" # optional property
